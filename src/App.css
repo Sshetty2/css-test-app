@@ -47,9 +47,8 @@ h2 {
 }
 
 .container {
-  width : 50vh;
+  width : 69vh;
   margin: auto;
-
 }
 
 .footer {
@@ -75,4 +74,9 @@ h2 {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.box {
+  display: flex
 }

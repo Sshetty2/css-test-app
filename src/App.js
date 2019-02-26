@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './all.css';
+import Button from '@material-ui/core/Button';
 
-import AppBar from './AppBar';
+
+
 import Card from './Card'
 
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 import * as Colors from '@material-ui/core/colors';
-import grey from '@material-ui/core/colors/grey';
+
 
 const theme = createMuiTheme({
     palette: {
@@ -26,6 +28,10 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      bobCards:[card1, card2, card3],
+      winnieCards: [card1, card2, card3],
+      thomasCards: [card1, card2, card3],
+      georgeCards: [card1, card2, card3],
       data: [
         {ProductName: "Chai", Price: 10},
         {ProductName: "Chang", Price: 20},
@@ -42,30 +48,63 @@ class App extends Component {
       skip: 0
     }
   }
+
+
+
+
   render() {
     return (
-      <MuiThemeProvider theme={theme}>
-        <div className="App">
     
-          <body className='container'>
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <div className="box-1">
-              <h2>Sample Container</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In delectus mollitia sapiente reiciendis eos laborum! Itaque ipsam cupiditate maiores, possimus minima culpa totam optio et at velit molestias, praesentium architecto.
-              </p>
+      <React.Fragment>
+        
+          <div className="box">
+            <div className="box1">
+
+                <Card name = 'Winnie' />
+                <Card />                  
+                <Card />
+                <Button  color="primary">
+                  Add
+                </Button>
             </div>
+            <div className="box2">
+                <Card name = 'Bob'  />
+                  {this.state.bobsCards.map((x, i) =>{
+                    return <Card key = {i} card = {x}/>
+                  }}
+                
+                <Card />
+                <Button  color="primary">
+                  Add
+                </Button>
+            </div>
+            <div className="box3">
+                <Card name = 'Thomas' />
+                <Card />
+                <Card />
+                <Button  color="primary">
+                  Add
+                </Button>
+            </div>
+            <div className="box4">
+                <Card name = 'George' />
+                <Card />
+                <Card />
+                <Button  color="primary">
+                  Add
+                </Button>
+            </div>
+          </div>
 
-          </body>
 
-        </div>
+
+
         <div className='footer'>
           <div className = 'footer-content'>   
             <img src={logo} className="App-logo" alt="logo" />
           </div>
         </div>
-      </MuiThemeProvider>
+      </React.Fragment>
     );  
   }
 }
