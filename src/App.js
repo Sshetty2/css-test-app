@@ -1,9 +1,36 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import logo2 from './kisspng.png'
-import '@progress/kendo-theme-default/dist/all.css';
+import './all.css';
 import { Grid, GridColumn } from '@progress/kendo-react-grid';
+import AppBar from './AppBar';
+
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
+import * as Colors from '@material-ui/core/colors';
+import grey from '@material-ui/core/colors/';
+
+const theme = createMuiTheme({
+    palette: {
+      primary: grey[900],
+      secondary: Colors.white, // Switching the dredark mode on is a single property value change.
+    },
+    type: 'dark'
+  }
+);
+
+// const theme = createMuiTheme({
+//   palette: {
+//     type: 'dark',
+//   },
+//   overwrites = {
+      //   appBar: {
+      //     color: Colors.blueGrey800,
+      //     textColor: Colors.grey100
+      //   }
+      // },
+  
+// });
+
 
 class App extends Component {
   constructor(props) {
@@ -27,9 +54,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <MuiThemeProvider theme={theme}>
         <div className="App">
-
+          <AppBar />
           <body className='container'>
             <p>
               Edit <code>src/App.js</code> and save to reload.
@@ -53,7 +80,7 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
           </div>
         </div>
-      </div>
+      </MuiThemeProvider>
     );  
   }
 }
