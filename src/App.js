@@ -2,34 +2,24 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './all.css';
-import { Grid, GridColumn } from '@progress/kendo-react-grid';
+
 import AppBar from './AppBar';
+import Card from './Card'
 
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 import * as Colors from '@material-ui/core/colors';
-import grey from '@material-ui/core/colors/';
+import grey from '@material-ui/core/colors/grey';
 
 const theme = createMuiTheme({
     palette: {
-      primary: grey[900],
-      secondary: Colors.white, // Switching the dredark mode on is a single property value change.
+      primary: { main: '#212121' },
+      secondary: Colors.white, 
     },
     type: 'dark'
   }
 );
 
-// const theme = createMuiTheme({
-//   palette: {
-//     type: 'dark',
-//   },
-//   overwrites = {
-      //   appBar: {
-      //     color: Colors.blueGrey800,
-      //     textColor: Colors.grey100
-      //   }
-      // },
-  
-// });
+
 
 
 class App extends Component {
@@ -56,7 +46,7 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="App">
-          <AppBar />
+    
           <body className='container'>
             <p>
               Edit <code>src/App.js</code> and save to reload.
@@ -68,12 +58,7 @@ class App extends Component {
             </div>
 
           </body>
-          <div className="grid">
-            <Grid data={this.state.data} style = {{height: '15vh'}}>
-                <GridColumn field="ProductName" title="Product name"/>
-                <GridColumn field="Price"/>
-            </Grid>
-          </div>
+
         </div>
         <div className='footer'>
           <div className = 'footer-content'>   
