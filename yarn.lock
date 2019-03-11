@@ -868,6 +868,15 @@
     prop-types "^15.6.0"
     react-transition-group "^2.2.0"
 
+"@progress/kendo-react-animation@2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-animation/-/kendo-react-animation-2.7.0.tgz#46647738ab5acf1d5709aa6a96d199b6d53d4e4d"
+  integrity sha512-6M8WCmkKRUPD+dx36CLz7bKJl8K5nqw9iYaeFFJssoXx6gDu6gNJPoMdz2n5o55HZjY6Zoz58juIs/9A8+Ly0g==
+  dependencies:
+    "@progress/kendo-react-common" "2.7.0"
+    prop-types "^15.6.0"
+    react-transition-group "^2.2.0"
+
 "@progress/kendo-react-common@2.6.1":
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/@progress/kendo-react-common/-/kendo-react-common-2.6.1.tgz#51e76ad68e7afe25ee42c3cd6f25a07e4998d4be"
@@ -875,14 +884,22 @@
   dependencies:
     prop-types "^15.6.0"
 
-"@progress/kendo-react-dateinputs@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-react-dateinputs/-/kendo-react-dateinputs-2.6.1.tgz#0d4e964c7bcd5aba5718efd34e2ff2e5ac91059b"
-  integrity sha512-s0N8VGffaLpZY8vRAjDUPcCuXCwATXpb6BZj8NvP9IVbNUYWYvE8Arr8mTeVEWbh4o5ubHkhs9n5ejq3PQ0I7A==
+"@progress/kendo-react-common@2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-common/-/kendo-react-common-2.7.0.tgz#ab9767e3574d3e1f49c69a353003cf6787c0ee14"
+  integrity sha512-WmX9xFq+8dXTGs0dUaCJwTT6B0sFUknlhBbLLKxYMj785KjsTWEKNI49X1Vi4ZMRLYQbSLWwqYAfhsaCDuMLmA==
+  dependencies:
+    "@telerik/kendo-draggable" "1.9.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-dateinputs@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-dateinputs/-/kendo-react-dateinputs-2.7.0.tgz#ce9f77798eeac5be556d5d918d47e629d17045f7"
+  integrity sha512-4cl5yYRlLEjipOonnR4hZMwzgpXX2kg690AMofrecAgxJf/Lq7Utk6zPCUMXDwg/hQGYb8Rb5cwSy7JzHxMlgw==
   dependencies:
     "@progress/kendo-date-math" "1.2.0"
-    "@progress/kendo-react-common" "2.6.1"
-    "@progress/kendo-react-popup" "2.6.1"
+    "@progress/kendo-react-common" "2.7.0"
+    "@progress/kendo-react-popup" "2.7.0"
     prop-types "^15.6.0"
 
 "@progress/kendo-react-dropdowns@^2.6.1":
@@ -928,6 +945,16 @@
     "@progress/kendo-popup-common" "^1.2.2"
     "@progress/kendo-react-animation" "2.6.1"
     "@progress/kendo-react-common" "2.6.1"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-popup@2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-popup/-/kendo-react-popup-2.7.0.tgz#27e618794906b56604df6402f48148abe3a883a7"
+  integrity sha512-ImafmEE33ZCkMUUjXrdrTirmWXCjadCiPucJg97P3gTV9rtfwwcDDin9UnjoSsO30AvPg+o+AxbN/yJk7aZ7iw==
+  dependencies:
+    "@progress/kendo-popup-common" "^1.2.2"
+    "@progress/kendo-react-animation" "2.7.0"
+    "@progress/kendo-react-common" "2.7.0"
     prop-types "^15.6.0"
 
 "@progress/kendo-theme-default@^3.3.1":
@@ -1046,6 +1073,11 @@
     "@svgr/plugin-jsx" "^4.1.0"
     "@svgr/plugin-svgo" "^4.0.3"
     loader-utils "^1.1.0"
+
+"@telerik/kendo-draggable@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@telerik/kendo-draggable/-/kendo-draggable-1.9.0.tgz#914322f3d1e6029104f3daaaa15e9fc3b73989c8"
+  integrity sha512-B5zi4iLQdaSvpF0dFi1/u8Ej037nTsqTkW+FaZxyhCawfR+b1d8OSw9nQZtSeFW7VYvHwElPKCYXgV50NLMzrA==
 
 "@telerik/kendo-draggable@^1.9.0":
   version "1.9.1"
@@ -8074,20 +8106,12 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.6.0:
+prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
   dependencies:
     loose-envify "^1.4.0"
-    object-assign "^4.1.1"
-    react-is "^16.8.1"
-
-prop-types@^15.6.2:
-  version "15.7.1"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.1.tgz#2fa61e0a699d428b40320127733ee2931f05d9d1"
-  integrity sha512-f8Lku2z9kERjOCcnDOPm68EBJAO2K00Q5mSgPAUE/gJuBgsYLbVy6owSrtcHj90zt8PvW+z0qaIIgsIhHOa1Qw==
-  dependencies:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
