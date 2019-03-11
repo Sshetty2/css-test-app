@@ -920,12 +920,12 @@
     "@telerik/kendo-draggable" "^1.9.0"
     prop-types "^15.6.0"
 
-"@progress/kendo-react-inputs@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-react-inputs/-/kendo-react-inputs-2.6.1.tgz#22e5315cef0147e561669d9a35196af5c9b39c24"
-  integrity sha512-zKN0XA4wvBCUot21bTvKXVZrdnndyx40MvptC5SXCz3qjIsaSDYzVepqconZl89c6rQsTaEc36EhqzeK+iAeYg==
+"@progress/kendo-react-inputs@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-inputs/-/kendo-react-inputs-2.7.0.tgz#2eec0f5baee96420536030df7ba7aa655b79d274"
+  integrity sha512-8oDD4B3nlOZ9DjWtkuepwGAyWe31RFBSzA4NbIk3ekvvvo2uasI8hUf0chXX1jivw26A9GkkK4FQDmSTrd1ruQ==
   dependencies:
-    "@progress/kendo-react-common" "2.6.1"
+    "@progress/kendo-react-common" "2.7.0"
     "@telerik/kendo-draggable" "^1.9.0"
     prop-types "^15.6.0"
 
