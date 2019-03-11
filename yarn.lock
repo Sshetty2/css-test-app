@@ -859,15 +859,6 @@
   resolved "https://registry.yarnpkg.com/@progress/kendo-popup-common/-/kendo-popup-common-1.6.1.tgz#635ab325bf6431595593a75770fb02b2f273aa65"
   integrity sha512-tIoAzxT7cIwS1gdY/+4Adz9vGS1KDMVIUZdTTyC5jbWZKU33L5cGLGI2RyLADkRituil9u5V0Z9Akk9YctVLfA==
 
-"@progress/kendo-react-animation@2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-react-animation/-/kendo-react-animation-2.6.1.tgz#d33621ac1f3e8860b7888175e97bf79d00d3b045"
-  integrity sha512-JmXqftMwvKMFzHPpj/We9Z0feIXCdN4NAQutIEwmcSmmoYnNjThpcHWkE+GyDgwPv7IoCk0xTjIgvOtumkJYgw==
-  dependencies:
-    "@progress/kendo-react-common" "2.6.1"
-    prop-types "^15.6.0"
-    react-transition-group "^2.2.0"
-
 "@progress/kendo-react-animation@2.7.0":
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/@progress/kendo-react-animation/-/kendo-react-animation-2.7.0.tgz#46647738ab5acf1d5709aa6a96d199b6d53d4e4d"
@@ -902,13 +893,13 @@
     "@progress/kendo-react-popup" "2.7.0"
     prop-types "^15.6.0"
 
-"@progress/kendo-react-dropdowns@^2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-react-dropdowns/-/kendo-react-dropdowns-2.6.1.tgz#fa43af3e5586bf969810f7e76f0db9fbb95d2d7f"
-  integrity sha512-uLgEHnolhnWVTAK48zg5b6+s4SyRTMLR1dfZkrcxz1WdK/304Qx5P7cxsLj7wGyzzRIMCPi9lw9HIDQ0/NVxkg==
+"@progress/kendo-react-dropdowns@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-dropdowns/-/kendo-react-dropdowns-2.7.0.tgz#787c4b4b06ba96e6bd9060b0028fa386b74652d8"
+  integrity sha512-DDvSvanSXh+xHi90KwiZoFQ02Pywqd0X9G6vb2PDvWw3VmaaewRBPiqMb6GgAZeijL5UvxPQjU0xlmrcRPjO/g==
   dependencies:
-    "@progress/kendo-react-common" "2.6.1"
-    "@progress/kendo-react-popup" "2.6.1"
+    "@progress/kendo-react-common" "2.7.0"
+    "@progress/kendo-react-popup" "2.7.0"
     prop-types "^15.6.0"
 
 "@progress/kendo-react-grid@^2.6.1":
@@ -935,16 +926,6 @@
   integrity sha512-NLRn9qH3L5wJ4AF7rmz7XLNTb4b0NAx36vnC1RHFhyH0GRBQ64Ph3Alg1LBgkcKzpt2tP0UmKsLcsv2AVHrHjA==
   dependencies:
     "@telerik/kendo-intl" "^1.3.0"
-    prop-types "^15.6.0"
-
-"@progress/kendo-react-popup@2.6.1":
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-react-popup/-/kendo-react-popup-2.6.1.tgz#92d9ebb6a459319233e245b93af12b7e1878a0ee"
-  integrity sha512-r9pmEZnBqYH9rHvzWrdeWcoqjGMm2z+XyUCc7wfnGLQBwSCuV7sCVikyWHEqiEdNdfm6grSq9AyHtAdZm3cr3A==
-  dependencies:
-    "@progress/kendo-popup-common" "^1.2.2"
-    "@progress/kendo-react-animation" "2.6.1"
-    "@progress/kendo-react-common" "2.6.1"
     prop-types "^15.6.0"
 
 "@progress/kendo-react-popup@2.7.0":
