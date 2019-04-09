@@ -957,17 +957,17 @@
     "@progress/kendo-react-common" "2.7.0"
     prop-types "^15.6.0"
 
-"@progress/kendo-theme-default@^3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-3.3.1.tgz#ed80ca247792094512e60320383e1e9cb0f58689"
-  integrity sha512-3PbhtrljTsMABtUAEtWytiWYL6Qm+oUwEqD5Ppmu/lMxZgdJJm9yhP9iRNwhctKoKt7hMg92zacpypHrlKTjdw==
+"@progress/kendo-theme-default@^3.3.1", "@progress/kendo-theme-default@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-3.5.0.tgz#3d077c09ad6b4983556939d3e66485b8c1d2da1d"
+  integrity sha512-Lq4qMDoXdwW6AmW1mHWOUVnOo6qEDMGW+KbZjRddM23RipaVyQrqa4EzjVH+BLxTPZ3dt9UZBuVr0xoCKUOZiw==
 
-"@progress/kendo-theme-material@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-material/-/kendo-theme-material-2.3.1.tgz#0e345807d983bd716bf2dac8a909e9aed0034c9f"
-  integrity sha512-faV3pz0sr/GOStYu3wPbeQUgpWDiR3gESFf/uqdMIW1MAXu1EyeCCCGfjFVBdtaC2pZxWC6Osrwdm4Kqc99VaA==
+"@progress/kendo-theme-material@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-material/-/kendo-theme-material-2.4.0.tgz#2f50ccf70cd8eb7b3537e16b42dc334821a6e529"
+  integrity sha512-3MJHW9wOC2dprWGiFwTo/Li1hVp6qW9VSOe65tAs4DGu4+Fjox0NRb6HOM1fPPg1/yq2JK1sYVQT6LUtAdmTKw==
   dependencies:
-    "@progress/kendo-theme-default" "^3.3.1"
+    "@progress/kendo-theme-default" "^3.5.0"
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.0.0":
   version "4.0.0"
