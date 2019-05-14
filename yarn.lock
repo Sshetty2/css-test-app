@@ -957,10 +957,10 @@
     "@progress/kendo-react-common" "2.7.0"
     prop-types "^15.6.0"
 
-"@progress/kendo-theme-default@^3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-3.3.1.tgz#ed80ca247792094512e60320383e1e9cb0f58689"
-  integrity sha512-3PbhtrljTsMABtUAEtWytiWYL6Qm+oUwEqD5Ppmu/lMxZgdJJm9yhP9iRNwhctKoKt7hMg92zacpypHrlKTjdw==
+"@progress/kendo-theme-default@^3.3.1", "@progress/kendo-theme-default@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-3.6.0.tgz#f958d68be570656ce093831a0082d48ffd758d7f"
+  integrity sha512-l8HQ4z0ZFLDvMzCFkLXRgSaBupyZQBW8L1S5JBwLcFJG1kUXp7xMkItyxyv4uyYZcnUM0zZaPt0FNoZn9Wo0fg==
 
 "@progress/kendo-theme-material@^2.3.1":
   version "2.3.1"
