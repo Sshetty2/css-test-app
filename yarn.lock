@@ -962,12 +962,10 @@
   resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-3.3.1.tgz#ed80ca247792094512e60320383e1e9cb0f58689"
   integrity sha512-3PbhtrljTsMABtUAEtWytiWYL6Qm+oUwEqD5Ppmu/lMxZgdJJm9yhP9iRNwhctKoKt7hMg92zacpypHrlKTjdw==
 
-"@progress/kendo-theme-material@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-material/-/kendo-theme-material-2.3.1.tgz#0e345807d983bd716bf2dac8a909e9aed0034c9f"
-  integrity sha512-faV3pz0sr/GOStYu3wPbeQUgpWDiR3gESFf/uqdMIW1MAXu1EyeCCCGfjFVBdtaC2pZxWC6Osrwdm4Kqc99VaA==
-  dependencies:
-    "@progress/kendo-theme-default" "^3.3.1"
+"@progress/kendo-theme-material@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-material/-/kendo-theme-material-3.4.0.tgz#83ab96c225de923a8c29c55959ce2381fd9d72cd"
+  integrity sha512-x6KcJ0d8fjbUq1nf61UE2UXrhxcSM+XQsRwrp5JGukGdzgDEh4OOXl5jAXIqF8598K3kJmCjbep6E6mR4ylXBw==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.0.0":
   version "4.0.0"
