@@ -962,6 +962,11 @@
   resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-3.3.1.tgz#ed80ca247792094512e60320383e1e9cb0f58689"
   integrity sha512-3PbhtrljTsMABtUAEtWytiWYL6Qm+oUwEqD5Ppmu/lMxZgdJJm9yhP9iRNwhctKoKt7hMg92zacpypHrlKTjdw==
 
+"@progress/kendo-theme-default@^4.20.0":
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-4.20.0.tgz#dc25e46ac82b7d13c9c9afced8bc3ed97ee5d050"
+  integrity sha512-dtGvgGGXlWFJmGWNEQ+wNw9tJMjHh+mThordTx94KGMisdoVGPBCj6FD7xJA1qJPNwA/YbZ23iRL4bSN1BW39Q==
+
 "@progress/kendo-theme-material@^2.3.1":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@progress/kendo-theme-material/-/kendo-theme-material-2.3.1.tgz#0e345807d983bd716bf2dac8a909e9aed0034c9f"
